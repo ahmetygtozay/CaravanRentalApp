@@ -1,27 +1,26 @@
-# Caravan Rental App - Details Screen
+# Caravan Rental App
 
-This project demonstrates the layout and UI design for the Details screen of a Campervan Rental app. The screen provides information about a campervan, including an image, price, location, short description, and detailed description. It also includes a button to proceed with renting the campervan.
+A mobile application for renting caravans, built with Java and Firebase. The app allows users to register, log in, browse available campervans, view details, and book their desired campervan. It includes a clean and user-friendly interface, along with essential features such as authentication, caravan listing, and a booking system.
 
 ## Features
-- **Image View**: Displays a photo of the campervan with a `centerCrop` scale type.
-- **Card View**: Contains the price of the campervan, styled with a rounded corner and a light green background.
-- **Location**: Shows the location of the campervan rental (e.g., Istanbul).
-- **Short Description**: A brief description of the campervan, such as "Big White Campervan".
-- **Detailed Description**: Provides more detailed information about the campervan.
-- **Rent Button**: A button that allows users to proceed with the rental process.
 
-## Layout Components
-- **ConstraintLayout**: Used as the root layout to ensure flexible positioning of elements.
-- **ImageView**: Displays the campervan image at the top of the screen.
-- **CardView**: A card containing the price information.
-- **TextView**: Several `TextView` elements are used to display the campervan's location, short description, and detailed description.
-- **Button**: A button at the bottom to initiate the rental process.
+- **User Authentication**: Sign up, login, and logout functionality using Firebase Authentication.
+- **Caravan Listing**: Browse available campervans, see their details (e.g., location, price, description).
+- **Detailed View**: See the specific details of a campervan, including an image, price, location, and description.
+- **Booking**: Rent a campervan and confirm your booking.
 
-## How to Use
+## Requirements
+
+- **Android Studio**: Required for building and running the app.
+- **Firebase Account**: Firebase Authentication and Firestore Database are used.
+- **Internet Connection**: Required for Firebase services to work.
+
+## Installation
+
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/campervan-rental-app.git
-```
+   ```bash
+   git clone https://github.com/your-username/campervan-rental-app.git
+  ```
 2. Open the project in Android Studio.
 3. Run the project on your Android device or emulator.
 
