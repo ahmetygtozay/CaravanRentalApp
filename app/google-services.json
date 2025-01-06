@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124185129412",
+    "project_id": "caravanrental-7d2a1",
+    "storage_bucket": "caravanrental-7d2a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124185129412:android:5cba01f2ca1a635d52f491",
+        "android_client_info": {
+          "package_name": "com.example.caravanrentalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKPAX4PL_yyOGs63u8gdnVOJqzwBvThzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

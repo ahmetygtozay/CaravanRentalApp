@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/campervan"
+        android:scaleType="centerCrop" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/location"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="16dp"
+        android:backgroundTint="#90ee90"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/price"
+            android:text="$160"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintStart_toEndOf="@id/card_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Istanbul"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/short_description"
+        android:text="Big White Campervan"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:maxLines="2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/card_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="28sp"
+        android:text="Description"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/short_description"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="anytextfortest"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <!-- Share Button -->
+    <ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/button_rent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:src="@drawable/share"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/bg_share"
+        android:contentDescription="Share Button"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"/>
+
+
+
+    <Button
+        android:id="@+id/button_rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:text="RENT"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
