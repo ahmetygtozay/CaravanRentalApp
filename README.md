@@ -1,4 +1,4 @@
-# Campervan Rental App - Details Screen
+# Caravan Rental App - Details Screen
 
 This project demonstrates the layout and UI design for the Details screen of a Campervan Rental app. The screen provides information about a campervan, including an image, price, location, short description, and detailed description. It also includes a button to proceed with renting the campervan.
 
