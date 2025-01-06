@@ -18,9 +18,9 @@ A mobile application for renting caravans, built with Java and Firebase. The app
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/your-username/campervan-rental-app.git
-  ```
+   ```
 2. Open the project in Android Studio.
 3. Run the project on your Android device or emulator.
 
